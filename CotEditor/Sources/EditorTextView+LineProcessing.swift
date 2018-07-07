@@ -206,7 +206,7 @@ extension EditorTextView {
         viewController.sampleLine = String(string[lineRange])
         viewController.sampleFontName = (self.layoutManager as? LayoutManager)?.textFont?.fontName
         
-        self.viewControllerForSheet?.presentViewControllerAsSheet(viewController)
+        self.viewControllerForSheet?.presentAsSheet(viewController)
     }
     
     
