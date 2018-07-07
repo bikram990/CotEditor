@@ -195,7 +195,7 @@ extension EditorTextView {
     /// show pattern sort sheet
     @IBAction func patternSort(_ sender: Any?) {
         
-        let viewController = NSStoryboard(name: NSStoryboard.Name("PatternSortView"), bundle: nil).instantiateInitialController() as! PatternSortViewController
+        let viewController = NSStoryboard(name: "PatternSortView", bundle: nil).instantiateInitialController() as! PatternSortViewController
         viewController.representedObject = self
         
         // sample the first line
